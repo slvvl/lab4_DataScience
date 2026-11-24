@@ -1,0 +1,50 @@
+[
+  {
+    "roc_auc": 0.8085714285714287,
+    "accuracy": 0.77,
+    "precision": 0.8012820512820513,
+    "recall": 0.8928571428571429,
+    "f1": 0.8445945945945946,
+    "model_name": "LogisticRegression"
+  },
+  {
+    "roc_auc": 0.8301190476190475,
+    "accuracy": 0.765,
+    "precision": 0.8604651162790697,
+    "recall": 0.7928571428571428,
+    "f1": 0.8252788104089219,
+    "model_name": "RandomForest"
+  },
+  {
+    "roc_auc": 0.7935714285714286,
+    "accuracy": 0.76,
+    "precision": 0.8108108108108109,
+    "recall": 0.8571428571428571,
+    "f1": 0.8333333333333334,
+    "model_name": "HistGradientBoosting"
+  },
+  {
+    "roc_auc": 0.824404761904762,
+    "accuracy": 0.785,
+    "precision": 0.8211920529801324,
+    "recall": 0.8857142857142857,
+    "f1": 0.852233676975945,
+    "model_name": "GradientBoosting"
+  },
+  {
+    "roc_auc": 0.8254761904761905,
+    "accuracy": 0.775,
+    "precision": 0.8231292517006803,
+    "recall": 0.8642857142857143,
+    "f1": 0.8432055749128919,
+    "model_name": "SoftVoting(LR+RF+HGB)"
+  },
+  {
+    "roc_auc": 0.8280952380952381,
+    "accuracy": 0.795,
+    "precision": 0.8193548387096774,
+    "recall": 0.9071428571428571,
+    "f1": 0.8610169491525423,
+    "model_name": "Stacking(LR+RF+HGB -> LR)"
+  }
+]
